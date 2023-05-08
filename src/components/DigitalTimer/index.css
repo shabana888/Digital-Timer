@@ -1,0 +1,150 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  background-size: cover;
+  box-shadow: 0px 4px 16px 0px;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-cont {
+  margin: 0px;
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 100px;
+  height: 90px;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.time {
+  color: #00d9f5;
+  font-size: 23px;
+}
+
+.timer-state {
+  color: #0f172a;
+  font-size: 15px;
+}
+
+.start-reset-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.play-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-weight: 18px;
+  height: 20px;
+  width: 50px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.play-or-pause {
+  height: 30px;
+  width: 30px;
+  color: #0f172a;
+  font-weight: 600;
+  padding-top: 10px;
+  margin-right: 5px;
+}
+
+.reset-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-weight: 18px;
+  height: 20px;
+  width: 50px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.reset {
+  height: 30px;
+  width: 30px;
+  color: #0f172a;
+  font-weight: 600;
+  padding-top: 10px;
+  margin-right: 5px;
+}
+
+.timer-limit {
+  color: #0f172a;
+  font-size: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.timer {
+  background-image: linear-gradient(to right, #54f088, #00d9f5);
+  background-size: cover;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  margin: 8px;
+  font-weight: bold;
+}
